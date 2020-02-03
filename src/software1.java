@@ -23,9 +23,7 @@ public class software1 {
 		System.out.println("Curso actual");
 		datos.add(sc.nextLine());
 		
-		System.out.println("El estudiante :" + datos.get(0) +" " + datos.get(1) + " nacido el : " + datos.get(2) + 
-							" con dni: " + datos.get(3) + " estudiando " + datos.get(6) + " con telefono: " + datos.get(5));
-	
+		Estudiante nuevo = new Estudiante(datos.get(0),datos.get(1),datos.get(2),datos.get(3),datos.get(4),datos.get(5));
 	
 	}
 
